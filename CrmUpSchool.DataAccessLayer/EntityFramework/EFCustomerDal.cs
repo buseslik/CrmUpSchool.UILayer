@@ -1,0 +1,14 @@
+﻿using CrmUpSchool.DataAccessLayer.Abstract;
+using CrmUpSchool.DataAccessLayer.Repository;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CrmUpSchool.DataAccessLayer.EntityFramework
+{
+    public class EFCustomerDal : GenericRepository<EFCustomerDal> , ICustomerDal
+    {
+    }
+}
